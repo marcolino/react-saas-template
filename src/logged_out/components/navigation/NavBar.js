@@ -31,7 +31,7 @@ const styles = theme => ({
     fontWeight: theme.typography.h6.fontWeight
   },
   brandText: {
-    fontFamily: "'Baloo Bhaijaan', cursive",
+    fontFamily: "cursive",
     fontWeight: 400
   },
   noDecoration: {

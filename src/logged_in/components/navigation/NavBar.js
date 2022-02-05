@@ -109,7 +109,7 @@ const styles = (theme) => ({
     backgroundColor: `${theme.palette.primary.main} !important`,
   },
   brandText: {
-    fontFamily: "'Baloo Bhaijaan', cursive",
+    fontFamily: "cursive",
     fontWeight: 400,
   },
   username: {
