@@ -38,7 +38,7 @@ const styles = theme => ({
     }
   },
   brandText: {
-    fontFamily: "'Baloo Bhaijaan', cursive",
+    fontFamily: "cursive",
     fontWeight: 400,
     color: theme.palette.common.white
   },

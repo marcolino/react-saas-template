@@ -10,7 +10,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "pub": "git add . && git commit -m \"deploying to heroku\" && git push && yarn deploy",
-    "pubdev": "yarn pub && heroku logs --tail",
+    "logs": "heroku logs --tail",
+    "publogs": "yarn pub && yarn logs",
     "deploy": "git push heroku master",
     "check-unused-dependencies": "depcheck",
     "list-deadfiles": "deadfile ./src/index.js --dir src"
