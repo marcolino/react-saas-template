@@ -7,7 +7,7 @@ updates:
     time: "04:00"
   open-pull-requests-limit: 10
   reviewers:
-  - dunky11
+  - marcolino
   ignore:
   - dependency-name: "@date-io/date-fns"
     versions:
